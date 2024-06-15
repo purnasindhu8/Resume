@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+        .header, .section {
+            margin-bottom: 20px;
+        }
+        .header .name {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .header .contact-info {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .section p {
+            margin: 0 0 10px 0;
+        }
+        .section .job, .section .school {
+            margin-bottom: 10px;
+        }
+        .section .job h3, .section .school h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .section .job span, .section .school span {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">Anjuri Sree Purna Sindhu</div>
+            <div class="contact-info">
+                <p>purnaqueen381@gmail.com</p>
+                <p>Phone: 7013227165</p>
+                <p>Address: Visakapatnam,Anil neerukonda College</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Experienced web developer with a strong background in developing award-winning applications for a diverse clientele.Quickly learn and master new technologies and working in both team and self-directed settings.</p>
+        </div>
+
+        <div class="section">
+            <h2>Internship</h2>
+            <div class="job">
+                <h3>Airport- at Visakapatnam</h3>
+                <span>May 2024 - June 2024</span>
+                <p>The student will know certain skills regarding the departments in Airport authority and about the work they are doing. And how the aircrafts moves in the air.</p>
+            </div>
+            
+            
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="school">
+                <h4>Bachelor of Science in Electronics and Communication Engineering- ANITS College</h4>
+                <span>2021-2025</span>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript,Cloud computing,IOT,Python,Machine Learning</p>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <p>Certified in Excel skills - J.P.Morgn </p>
+            <p>Full Stack Developer Certification - Coursera</p>
+          <p>Internet of Things Certification - NPTEL</p>
+          <p>Machine Learning Certification - Nptel</p>
+          
+        </div>
+    </div>
+</body>
+</html>
